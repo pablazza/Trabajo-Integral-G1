@@ -1,10 +1,185 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+   
     <title>Trabajo Integral Grafos</title>
-
 </head>
 
 <body>
-    <p>AMOGUS</p>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top p-3 aria-label">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="color: rgb(17, 133, 201)">Grafos y Lenguajes Formales</a>
+            <button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expand="false" aria-label="Toggle navigation">
+                <ion-icon= name="menu-outline"></ion-icon>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="index.html" style="text-align: center">Inicio</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="desarrollo.html" style="text-align: center">Desarrollo</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio">
+        <div class="container">
+            <div class="text pt-5 pb-1">
+                <h1>
+                    <span class="">T</span>
+                    <span class="">r</span>
+                    <span class="">a</span>
+                    <span class="">b</span>
+                    <span class="">a</span>
+                    <span class="">j</span>
+                    <span class="">o</span>
+                    <span class="ml-3">I</span>
+                    <span class="">n</span>
+                    <span class="">t</span>
+                    <span class="">e</span>
+                    <span class="">g</span>
+                    <span class="">r</span>
+                    <span class="">a</span>
+                    <span class="">l</span>
+                </h1>
+                <h1 class="divider"></h1>
+
+                <div class="row">
+                    <div class="col-6">
+                        <h5 class="text-justify mt-4 pb-5 mr-4">La empresa “D” se encarga de transportar productos desde distintos centros de distribución hacia los negocios
+                            o puntos de venta ubicados en toda la ciudad.
+                            Muy temprano cada día, la flota de camiones se dirige desde las instalaciones de la empresa D al centro de
+                            distribución que se le asigna para ese día a cada camión (un camión recibe un solo centro de distribución
+                            diario). En cada centro de distribución, el camión es cargado con la mercadería de productos a distribuir según
+                            los distintos puntos de venta en la ciudad (denominada hoja de ruta); dicha hoja de ruta incluye los puntos de
+                            venta en los cuales debe dejar productos y en el orden que debe dejarlos.
+                            Al finalizar la entrega en el último punto de venta, el camión se dirige nuevamente a las instalaciones de la
+                            empresa D, para finalizar el turno del día donde el camión se estaciona y guarda hasta el día siguiente.
+                            Se pide desarrollar un software que construya la hoja de ruta de manera eficiente, minimizando las distancias
+                            totales (km) recorridos por todos los camiones diariamente. Para lo anterior, el software debe cargarse con
+                            las coordenadas GPS de los distintos centros de distribución y puntos de venta. Luego al ejecutar el programa,
+                            se debe pedir el centro de distribución asignado para cada camión (cantidad de camiones es variable).
+                        </h5>
+                        <div class="mb-2">
+                            <a href="desarrollo.html" class="mb-5" id="a2">Hoja de Ruta</a>
+                        </div>
+                    </div>
+                    <div class="col-6 text-center bg-dark mt-4">
+                        <img src="img/grafo.png" alt="" class="" height="500px" align-image="center">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologias">
+        <div class="container">
+            <div class="contenedor mx-5">
+                <h1 class="pt-5 content-center">
+                    <span class="">T</span>
+                    <span class="">e</span>
+                    <span class="">c</span>
+                    <span class="">n</span>
+                    <span class="">o</span>
+                    <span class="">l</span>
+                    <span class="">o</span>
+                    <span class="">g</span>
+                    <span class="">&iacute</span>
+                    <span class="">a</span>
+                    <span class="">s</span>
+                    <span class="ml-3">U</span>
+                    <span class="">t</span>
+                    <span class="">i</span>
+                    <span class="">l</span>
+                    <span class="">i</span>
+                    <span class="">z</span>
+                    <span class="">a</span>
+                    <span class="">d</span>
+                    <span class="">a</span>
+                    <span class="">s</span>
+                </h1>
+                <h1 class="divider content-center px-5"></h1>
+                <div class="carousel pt-1">
+                    <div class="carousel__contenedor">
+                        <button aria-label="Anterior" class="carousel__anterior">
+                            <em class="fas fa-chevron-left"></em>
+                        </button>
+
+                        <div class="carousel__lista">
+                            <div class="carousel__elemento">
+                                <img src="img/js.png" alt="">
+                                <p>Javascript</p>
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/html.png" alt="">
+                                <p>Html</p>
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/css.png" alt="">
+                                <p>Css</p>
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/boostrap.png" alt="">
+                                <p>Bootstrap</p>
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/github.png" alt="">
+                                <p>Github</p>
+                            </div>
+                        </div>
+
+                        <button aria-label="Siguiente" class="carousel__siguiente">
+                            <em class="fas fa-chevron-right"></em>
+                        </button>
+                    </div>
+
+                    <div role="tablist" class="carousel__indicadores pb-5"></div>
+                </div>
+        </div>
+    </section>
+    
+    <footer>
+        <nav class="container-fluid p-2 aria-label">
+            <div class="container">
+                <div class="content-center">
+                    <div class="row my-1">
+                        <div class="col d-flex justify-content-center">
+                            <a href="https://github.com/pablazza/Trabajo-Integral-G1" class="text-white">
+                                <em class="fab fa-github"></em>
+                            </a>
+                        </div>
+                    </div>
+                    <h1 class="divider mx-5"></h1>
+                    <h4 class="text-center">Universidad Tecnol&oacutegica Metropolitana | Desarrollado por Grupo 1</h4>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/c8152ea011.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="javascript/aplicacion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
 </body>

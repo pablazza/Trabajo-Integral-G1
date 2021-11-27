@@ -1,0 +1,285 @@
+:root{
+    --white: #ffffff;
+    --dark:#212121;
+    --primary:#757575;
+    --warning:#2a3b86;
+    --danger:#0a1858;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    letter-spacing: .03rem;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.navbar{
+    background-image: url(../img/codigo.jpg)
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+h2,
+h3,
+.navbar-brand{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+    font-size: 30px;
+}
+h5{
+    font-weight: 400;
+}
+#first h1{
+    font-size: 40px;
+    color: var(--white);
+}
+
+#first h1:hover{
+    font-size:41px;
+}
+
+#first .container{
+    background-color: black !important;
+}
+
+#first .divider{
+    border-bottom: 2px solid var(--white) !important;
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+.bg-dark{
+    background-color: var(--dark) !important;
+}
+
+.border-danger{
+    border-color: var(--danger) !important;
+}
+
+.nav-link{
+    color: rgb(8,226,242) !important;
+    font-size: 1.0rem;
+}
+
+.nav-link:hover{
+    color: rgb(8,226,242) !important;
+    opacity: 55%;
+}
+
+/* Botones*/
+
+.btn{
+    color:rgb(8,226,242) !important;
+    border: 1.5px solid rgb(8,226,242);
+    border-radius: 20px;
+    min-width: 30px;
+}
+
+.btn:hover{
+    color: black !important;
+    border: 1.5px solid rgb(8,226,242);
+    border-radius:20px;
+    min-width:30px;
+    background-color:rgb(8,226,242) !important;
+}
+
+.divider{
+    border-bottom: 2px solid black;
+}
+
+/* Seccion inicio */
+
+#inicio .divider {
+    border-bottom: 2px solid black;
+}
+
+#inicio .divider:hover {
+    border-bottom: 2px solid rgb(8, 226, 242);
+}
+
+span:hover {
+    color: rgb(8, 226, 242);
+}
+
+.text a {
+    color: black;
+    font-size: 20px;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 12px 25px;
+    letter-spacing: 3px;
+    background-color: none;
+    /*border-radius: 20px;*/
+}
+
+.text a:hover {
+    color: rgb(8, 226, 242);
+    text-decoration: none;
+    border: 3px solid rgb(8, 226, 242);
+    transition: border 1.5s;
+    transition: color 1.2s;
+    transform: scale(1.05, 1.05);
+    background-color: black;
+    transition: background-color 1.5s;
+}
+
+.margina {
+    margin-bottom: 800px !important;
+}
+
+
+/* Seccion tecnologias */
+
+#tecnologias h1 {
+    color: black;
+}
+
+#tecnologias p {
+    color: black;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#tecnologias p:hover {
+    color: rgb(8, 226, 242);
+}
+
+#tecnologias img {
+    width: 270px;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+}
+
+#tecnologias .divider {
+    border-bottom: 2px solid black;
+}
+
+#tecnologias .divider:hover {
+    border-bottom: 2px solid rgb(8, 226, 242);
+}
+
+
+/* Seccion del footer*/
+
+.container-fluid {
+    background-image: url(../img/bg.jpeg);
+}
+
+#footer h4 {
+    font-weight: 300;
+    font-size: 19px;
+    color: rgb(8, 226, 242);
+}
+
+#footer a:hover {
+    text-decoration: none;
+}
+
+#footer i {
+    color: rgb(8, 226, 242) !important;
+    margin: 0;
+}
+
+#footer .divider {
+    margin: 0;
+    border-bottom: 2px solid rgb(8, 226, 242);
+}
+
+
+/* Para el carrusel*/
+
+.carousel__contenedor {
+    position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: var(--primary);
+    opacity: 40%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+    opacity: 100%;
+}
+
+.carousel__anterior {
+    left: -30px;
+}
+
+.carousel__siguiente {
+    right: -30px;
+}
+
+.carousel__lista {
+    overflow: hidden;
+}
+
+.carousel__elemento {
+    text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: var(--primary);
+    opacity: .2;
+    border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+    opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+    opacity: 1;
+}
+
+.contenedor {
+    max-width: 1200px !important;
+    width: 90% !important;
+    margin: auto !important;
+}
+
+ion-icon {
+    color: rgb(8, 226, 242) !important;
+    border-color: rgb(8, 226, 242)!important;
+}
+
+.divider {
+    border-bottom: 2px solid black;
+}
+
+.divider1 {
+    border-bottom: 2px solid black;
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+}
+
+input:invalid {
+    border: 2px dashed rgb(8, 226, 242);
+    color: black !important;
+}
