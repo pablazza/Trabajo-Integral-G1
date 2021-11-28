@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    
+
+    <title>Desarrollo Trabajo Integral</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top p-3 aria-label">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="color: rgb(17, 133, 201)">Grafos y Lenguajes Formales</a>
+            <button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expand="false" aria-label="Toggle navigation">
+                <ion-icon= name="menu-outline"></ion-icon>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="index.html" style="text-align: center">Inicio</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="desarrollo.html" style="text-align: center">Desarrollo</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="subida-archivo">
+        <div class="title">Seleccione Archivo .txt</div>
+        <div class="arch-wrap">
+            <div class="archivo">
+                <p id="mensajes"></p>
+                <br>
+                <textarea id="contenido" cols="30" rows="10"></textarea>
+            </div>
+            <div class="descripcion-archivo">
+                <p>Suba el archivo .txt</p>
+                <br>
+                <input type="file" id="archivoTexto"><br><br>
+                <p>Este cuadro es solo referencial, servir&aacute para corroborar la informaci&oacuten sea la ingresada en el archivo .txt</p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="dyn-input-wrap">
+        <div class="input-descripcion">
+            <div class="descripcion-title">Ingreso de Pedidos</div>
+            <p class="descripcion">Para hacer uso correcto de la p&aacutegina, debe ingresar los pedidos de cada uno de los Puntos de Venta en los recuadros disponibles a la derecha.</p>
+            <p class="descripcion">El formato que usa la p&aacutegina reconoce a los puntos de venta como "P" y a los centros de distribuci&oacuten como "C".</p>
+            <p class="descripcion">La cantidad de campos a rellenar depende directamente del archivo de coordenadas que use. Concretamente de la cantidad de puntos que existan en el archivo.</p>
+            <p class="descripcion">El n&uacutemero ingresado de pedido debe ser un n&uacutemero entero mayor que 0 y menor que 1000 puesto que no puede superar las 1000 unidades por Punto de Venta.</p>
+            <p class="descripcion">Una vez terminado de rellenar los campos oprima el bot&oacuten de "Finalizar" y los datos se actualizar&aacuten autom&aacuteticamente.</p>
+            <p class="descripcion">La dimensión de los datos relacionados a las distancias obtenidas sera de Kilometros (kms).</p>
+        </div>
+        <div class="rellenado">
+            <div class="input-wrap">
+                <div id="inputfield"></div>
+            </div>
+            <div id="boton-finalizar">
+                <button type="button" class="boton-datos" onclick="printResultado()">Finalizar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="resultado">
+        <div id ="resultado"></div>
+        <div id="resultadoHTML"></div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+<script src="https://kit.fontawesome.com/c8152ea011.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script src="javascript/aplicacion.js"></script>
+<script src="javascript/desarrollo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+
+</html>
