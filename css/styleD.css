@@ -1,0 +1,193 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 120%;
+    background-color: #ddeded;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  * {
+  
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .header-section {
+    display: grid;
+    background: rgb(5, 102, 158);
+   
+  }
+  
+  section {
+    width: 100%;
+    min-height: 1000px;
+  }
+  
+  
+  
+  .header-title {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+  
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+    .archivos {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      text-align: center;
+      
+  
+    }
+  }
+  
+  .contenedor {
+    
+    background-color: white;
+  
+  }
+  
+  
+  
+  
+  .resultado {
+    background-color: rgb(17, 133, 201);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 50px;
+    padding: 5px; 
+  }
+  
+  .arch {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 50px;
+    padding: 5px;
+  }
+  
+  .linea {
+    border-top: 1px solid white;
+    height: 2px;
+    width: 50%;
+    padding-bottom: 20px;
+    margin: 20px auto 0 auto;
+  }
+  
+  button {
+    background-color: rgb(17, 133, 201);
+    color: white;
+    border: 2px solid #008CBA;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+.navbar{
+    background-image: url(../img/codigo.jpg)
+}
+
+.navbar-brand{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+    font-size: 30px;
+}
+
+#first .container{
+    background-color: black !important;
+}
+
+#first .divider{
+    border-bottom: 2px solid var(--white) !important;
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+.bg-dark{
+    background-color: var(--dark) !important;
+}
+
+.border-danger{
+    border-color: var(--danger) !important;
+}
+
+.nav-link{
+    color: rgb(8,226,242) !important;
+    font-size: 1.0rem;
+}
+
+.nav-link:hover{
+    color: rgb(8,226,242) !important;
+    opacity: 55%;
+}
+
+.ingreso{
+    background-color: rgb(17, 133, 201);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.result{
+    background-color: rgb(5, 102, 158);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 50px;
+    padding: 5px;
+}
+
+.pedidos{
+    background-color: rgb(17, 133, 201);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.titulo{
+    display:flex;
+    padding-left: 525px;
+    font-family:'Oswald', sans-serif;
+    font-size: 30px;
+    align-content: center;
+}
+
+b {
+    font-style: italic;
+    font-size: 20px; 
+}
+
+button {
+    background-color: #29abc3;
+    color: white;
+    border: 2px solid #008CBA;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+  
+button:hover {
+    background-color: white;
+    color: black;
+}
