@@ -283,3 +283,12 @@ input:invalid {
     border: 2px dashed rgb(8, 226, 242);
     color: black !important;
 }
+
+#nosotros h1 {
+    color: black;
+    font-size: 50px;
+}
+#nosotros h2 {
+    color: black;
+    font-size: 25px;
+}
