@@ -131,7 +131,6 @@ span:hover {
     transition: color 1.2s;
     transform: scale(1.05, 1.05);
     background-color: black;
-    transition: background-color 1.5s;
 }
 
 .margina {
@@ -264,13 +263,9 @@ span:hover {
     margin: auto !important;
 }
 
-ion-icon {
+.ion-icon {
     color: rgb(8, 226, 242) !important;
     border-color: rgb(8, 226, 242)!important;
-}
-
-.divider {
-    border-bottom: 2px solid black;
 }
 
 .divider1 {
